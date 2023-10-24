@@ -1,0 +1,35 @@
+REVENUES:
+Service Revenues
+Sales Revenues
+Rent Revenues
+Total Revenues(SUM OF THE ABOVE)
+
+EXPENSES:
+Rent Expense
+Salaries Expense
+Supplies Expense
+Taxes Expense
+Utilities Expense
+Total Expenses(SUM OF THE ABOVE)
+
+RETAINED EARNINGS:
+Retained Earnings End of Last Year(Dec 31)
+Net Income(TOTAL REVENUES-TOTAL EXPENSES)
+Dividends
+Retained Earnings End of Current Year(Dec 31)(RETAINED EARNINGS PRIOR+NET INCOME-DIVIDENDS)
+
+ASSETS:
+Cash
+Accounts Recievable
+Total Current Assets
+Land
+Buildings
+Supplies
+Total Assets
+
+LIABILITIES:
+Accounts Payable
+
+EQUITY:
+Common Stock
+Retained Earnings

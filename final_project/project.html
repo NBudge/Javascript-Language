@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <header>
+        <h1>Final Project</h1>
+    </header>
+    <main id="main">
+        <section id="section1">
+            <h2>Income Statement</h2>
+            <article>
+                <h3>Revenues</h3>
+                <div>
+                    <label for="servicerev">Service Revenues:</label>
+                    <input type="text" id="servicerev" name="servicerev">
+                </div>
+                <div>
+                    <label for="salesrev">Sales Revenues:</label>
+                    <input type="text" id="salesrev" name="salesrev">
+                </div>
+                <div>
+                    <label for="rentrev">Rent Revenues:</label>
+                    <input type="text" id="rentrev" name="rentrev">
+                </div>
+                <div>
+                    <input type="button" id="addrev" value="Add Revenues">
+                </div>
+                <div>
+                    <label for="totalrev">Total Revenues:</label>
+                    <input type="text" id="totalrev" name="totalrev" disabled>
+                </div>
+            </article>
+            <article>
+                <h3>Expenses</h3>
+                <div>
+                    <label for="rentex">Rent Expense:</label>
+                    <input type="text" id="rentex" name="rentex">
+                </div>
+                <div>
+                    <label for="salariesex">Salaries Expense:</label>
+                    <input type="text" id="salariesex" name="salariesex">
+                </div>
+                <div>
+                    <label for="suppliesex">Supplies Expense:</label>
+                    <input type="text" id="suppliesex" name="suppliesex">
+                </div>
+                <div>
+                    <label for="taxesex">Taxes Expense:</label>
+                    <input type="text" id="taxesex" name="taxesex">
+                </div>
+                <div>
+                    <label for="utilitiesex">Utilities Expense:</label>
+                    <input type="text" id="utilitiesex" name="utilitiesex">
+                </div>
+                <div>
+                    <input type="button" id="addex" value="Add Expenses">
+                </div>
+                <div>
+                    <label for="totalex">Total Expenses:</label>
+                    <input type="text" id="totalex" name="totalex" disabled>
+                </div>
+            </article>
+            <article>
+                <h3>Net Income</h3>
+                <div>
+                    <input type="button" id="netinc" value="Calculate Net Income">
+                </div>
+                <div>
+                    <label for="netinc1">Net Income:</label>
+                    <input type="text" id="netinc1" name="netinc1" disabled>
+                </div>
+            </article>
+            <h2>Retained Earnings</h2>
+            <article>
+                <h3>Retained Earnings</h3>
+                <div>
+                    <label for="retainearn1">Retained Earnings End of Last Year(Dec 31):</label>
+                    <input type="text" id="retainearn1" name="retainearn1">
+                </div>
+                <div>
+                    <label for="netinc2">Net Income:</label>
+                    <input type="text" id="netinc2" name="netinc2" disabled>
+                </div>
+                <div>
+                    <label for="dividend">Dividends:</label>
+                    <input type="text" id="dividend" name="dividend">
+                </div>
+                <div>
+                    <input type="button" id="retearn" value="Calculate Reatined Earnings">
+                </div>
+                <div>
+                    <label for="retainearn2">Retained Earnings End of Current Year(Dec 31):</label>
+                    <input type="text" id="retainearn2" name="retainearn2" disabled>
+                </div>
+            </article>
+            <h2>Balance Statement</h2>
+            <article>
+                <h3>Assets</h3>
+                <div>
+                    <label for="cash">Cash:</label>
+                    <input type="text" id="cash" name="cash">
+                </div>
+                <div>
+                    <label for="accountrec">Accounts Recievable:</label>
+                    <input type="text" id="accountrec" name="accountrec">
+                </div>
+                <div>
+                    <input type="button" id="curasset" value="Calculate Current Assets">
+                </div>
+                <div>
+                    <label for="currentasset">Total Current Assets:</label>
+                    <input type="text" id="currentasset" name="currentasset" disabled>
+                </div>
+                <div>
+                    <label for="land">Land:</label>
+                    <input type="text" id="land" name="land">
+                </div>
+                <div>
+                    <label for="buildings">Buildings:</label>
+                    <input type="text" id="buildings" name="buildings">
+                </div>
+                <div>
+                    <label for="supplies">Supplies:</label>
+                    <input type="text" id="supplies" name="supplies">
+                </div>
+                <div>
+                    <input type="button" id="totasset" value="Calculate Total Assets">
+                </div>
+                <div>
+                    <label for="totalasset">Total Assets:</label>
+                    <input type="text" id="totalasset" name="totalasset" disabled>
+                </div>
+            </article>
+            <article>
+                <h3>Liabilities</h3>
+                <div>
+                    <label for="accountpay">Accounts Payable:</label>
+                    <input type="text" id="accountpay" name="accountpay">
+                </div>
+                <div>
+                    <label for="taxpay">Taxes Payable:</label>
+                    <input type="text" id="taxpay" name="taxpay">
+                </div>
+                <div>
+                    <input type="button" id="totlia" value="Calculate Total Liabilities">
+                </div>
+                <div>
+                    <label for="totallia">Total Liabilities:</label>
+                    <input type="text" id="totallia" name="totallia" disabled>
+                </div>
+            </article>
+            <article>
+                <h3>Equity</h3>
+                <div>
+                    <label for="commonstock">Common Stock:</label>
+                    <input type="text" id="commonstock" name="commonstock">
+                </div>
+                <div>
+                    <label for="retainearn3">Retained Earnings:</label>
+                    <input type="text" id="retainearn3" name="retainearn3" disabled>
+                </div>
+                <div>
+                    <input type="button" id="totequ" value="Calculate Total Equity">
+                </div>
+                <div>
+                    <label for="totalequ">Total Equity:</label>
+                    <input type="text" id="totalequ" name="totalequ" disabled>
+                </div>
+            </article>
+            <article>
+                <h3>Accounting Equation</h3>
+                <div>
+                    <label for="totalasset2">Total Assets:</label>
+                    <input type="text" id="totalasset2" name="totalasset2" disabled>
+                </div>
+                <div>
+                    <label for="totliaequ">Total Liabilities and Equity:</label>
+                    <input type="text" id="totliaequ" name="totliaequ" disabled>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | CSE 121b | Final Project
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="project.js"></script>
+</body>
+
+</html>
